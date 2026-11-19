@@ -1,0 +1,50 @@
+  <!-- 1 · HERO: boot sequence, then zoom through the terminal -->
+  <section class="hero" id="top" aria-labelledby="hero-h">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="grid-bg"></div>
+      <span class="beam b1"></span><span class="beam b2"></span>
+      <div class="glow-wrap"><div class="glow g2"></div><div class="glow g1"><span class="core"></span></div></div>
+      <div class="glow g3"></div>
+      <canvas class="satin"></canvas>
+      <div class="satin-shade"></div>
+    </div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="prompt fade">~/moorthy $ whoami</span>
+        <h1 id="hero-h">
+          <span class="mask"><span>AI engineer.</span></span>
+          <span class="mask"><span>Agent builder.</span></span>
+          <span class="mask"><span class="serif" style="color:var(--accent)">Systems that ship.</span></span>
+        </h1>
+        <p class="fade">I'm Veilu Kantha Moorthy. I build LLM products, voice agents and automation pipelines in Chennai, and keep them reliable with validation and monitoring.</p>
+        <div class="hero-actions fade">
+          <a class="btn btn-primary magnetic" href="#work">See selected work <span class="arr" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost magnetic" href="https://github.com/moorthy-10">GitHub <span aria-hidden="true">↗</span></a>
+          <!-- TODO: point every [data-resume] href at the hosted resume PDF, then drop class is-todo -->
+          <a class="btn btn-ghost is-todo" data-resume href="#contact">Resume <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <div class="deck">
+          <div class="term">
+            <div class="term-bar"><i></i><i></i><i></i><span>boot.sh</span></div>
+            <div class="term-body">
+              <span class="term-line"><span style="color:var(--dim)">$</span> init portfolio --owner moorthy</span>
+              <span class="term-line"><span class="ok">✓</span> loading LLM stack</span>
+              <span class="term-line"><span class="ok">✓</span> connecting n8n + webhooks</span>
+              <span class="term-line"><span class="ok">✓</span> indexing knowledge base</span>
+              <span class="term-line" style="color:var(--text)">› 3 agents online<span class="caret"> ▍</span></span>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="fly"><div class="mini h1"><small>VOICE AGENT</small><div class="wv"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><strong>Appointment booked</strong></div></div>
+            <div class="fly"><div class="mini h2"><small>RAG CHATBOT</small><span class="skel" style="width:92%"></span><span class="skel" style="width:70%"></span><strong>3 sources cited</strong></div></div>
+          </div>
+          <div class="fly"><div class="runbar"><i class="sweep"></i><span class="mono" style="font-size:12px;font-weight:500">n8n · lead-to-CRM</span><span style="font-weight:600;font-size:14px">✓ Workflow ran</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><i></i>Scroll to boot</div>
+    <div class="veil" aria-hidden="true"></div>
+  </section>
