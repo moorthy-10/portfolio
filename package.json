@@ -1,0 +1,10 @@
+{
+  "name": "veilu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Veilu Kantha Moorthy - AI engineer portfolio (static site)",
+  "scripts": {
+    "dev": "npx --yes serve . -l 3000",
+    "check": "node --check js/main.js"
+  }
+}
